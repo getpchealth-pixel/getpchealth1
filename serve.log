@@ -1,0 +1,45 @@
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 79 ms
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /static/js/main.35323542.js
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /static/css/main.d126d168.css
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /manifest.json
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 18 ms
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 17 ms
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 47 ms
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /assets/GetPcHealth-logo.png
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /static/media/img1.8640368a9df5fb000372.png
+ HTTP  6/10/2026 5:25:49 pm ::1 GET /static/media/img2.a94b5a8ed6c8656d10c9.png
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 14 ms
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 16 ms
+ HTTP  6/10/2026 5:25:49 pm ::1 Returned 200 in 36 ms
+ HTTP  6/10/2026 5:25:50 pm ::1 GET /api/p1/pricing
+ HTTP  6/10/2026 5:25:50 pm ::1 GET /favicon.ico
+ HTTP  6/10/2026 5:25:50 pm ::1 GET /logo192.png
+ HTTP  6/10/2026 5:25:50 pm ::1 Returned 200 in 59 ms
+ HTTP  6/10/2026 5:25:50 pm ::1 Returned 200 in 272 ms
+ HTTP  6/10/2026 5:25:50 pm ::1 GET /api/p1/pricing
+ HTTP  6/10/2026 5:25:50 pm ::1 Returned 200 in 273 ms
+ HTTP  6/10/2026 5:25:50 pm ::1 Returned 304 in 14 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 3 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /static/js/main.35323542.js
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 4 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /static/css/main.d126d168.css
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /manifest.json
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 15 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 13 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /assets/GetPcHealth-logo.png
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /static/media/img1.8640368a9df5fb000372.png
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /static/media/img2.a94b5a8ed6c8656d10c9.png
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 6 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 6 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 7 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /api/p1/pricing
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /favicon.ico
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 2 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /logo192.png
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 3 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 200 in 1 ms
+ HTTP  6/10/2026 5:26:02 pm ::1 GET /api/p1/pricing
+ HTTP  6/10/2026 5:26:02 pm ::1 Returned 304 in 1 ms

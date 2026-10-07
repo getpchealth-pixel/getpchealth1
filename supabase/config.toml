@@ -1,0 +1,9 @@
+project_id = "voofqluoyxneqjyywjmj"
+
+# Razorpay cannot send a Supabase JWT. It only ever sends the raw body plus
+# `x-razorpay-signature`, which this function verifies itself with the shared
+# RAZORPAY_WEBHOOK_SECRET (constant-time compare). Supabase's built-in JWT gate
+# would reject every webhook with 401 before the function body ever runs, so it
+# has to be off for this endpoint.
+[functions.razorpay-webhook]
+verify_jwt = false

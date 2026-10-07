@@ -1,0 +1,36 @@
+:root {
+  --bg: #eef4f7;
+  --card: rgba(255, 255, 255, 0.72);
+  --border: rgba(31, 62, 78, 0.14);
+  --accent: #1677a8;
+  --green: #17865b;
+  --red: #c44949;
+  --text: #18303d;
+  --muted: #607683;
+  --glow: rgba(22, 119, 168, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  color: var(--text);
+  font-family: "Bahnschrift", "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}

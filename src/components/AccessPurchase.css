@@ -1,0 +1,149 @@
+.buy-panel {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(47, 79, 94, 0.13);
+}
+
+.buy-embedded {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.buy-form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.buy-form label {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.buy-form input {
+  width: 100%;
+  padding: 0.85rem 0.9rem;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: inherit;
+  outline: none;
+}
+
+.buy-form input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--glow);
+}
+
+.buy-hint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.buy-form button,
+.buy-verify,
+.buy-actions button {
+  padding: 0.8rem 1rem;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buy-form button:disabled,
+.buy-verify:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.buy-verify {
+  background: var(--green);
+}
+
+.buy-payment,
+.buy-success {
+  display: grid;
+  gap: 0.8rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  justify-items: center;
+}
+
+.buy-kicker {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.buy-payment p,
+.buy-success p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.buy-price {
+  font-size: 1rem !important;
+}
+
+.buy-price s {
+  opacity: 0.5;
+}
+
+.buy-price span {
+  color: var(--green);
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.buy-status {
+  font-weight: 700;
+  color: var(--text) !important;
+}
+
+.buy-qr {
+  width: min(100%, 230px);
+  margin: 0 auto;
+  border: 8px solid #fff;
+  box-shadow: 0 8px 24px rgba(24, 48, 61, 0.12);
+}
+
+.buy-link {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.buy-code {
+  width: 100%;
+  padding: 0.8rem;
+  overflow-wrap: anywhere;
+  color: var(--text);
+  background: #e7f5ee;
+  border: 1px solid rgba(23, 134, 91, 0.25);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.buy-error {
+  margin: 0;
+  padding: 0.7rem 0.8rem;
+  color: var(--red);
+  background: rgba(196, 73, 73, 0.08);
+  border-radius: 8px;
+  font-size: 0.9rem;
+}

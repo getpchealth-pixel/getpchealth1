@@ -1,0 +1,50 @@
+# Vercel upload filter.
+#
+# `.gitignore` already excludes these, but the Vercel CLI does not apply it to the
+# upload: without this file the Electron build output under
+# src/GetPcHealthexe/dist (~900 MB of installers) is sent with the project and the
+# deploy dies on the 100 MB function size limit.
+#
+# This file REPLACES .gitignore for upload purposes, so the files the build
+# actually needs are listed explicitly at the bottom.
+
+# dependencies
+node_modules/
+
+# The Electron desktop app: source, nested git repo, and ~900 MB of installers.
+# Built and released separately; the web deploy never needs it.
+src/GetPcHealthexe/
+
+# build output (Vercel runs `react-scripts build` itself)
+build/
+dist/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# tooling state
+.vercel/
+.agents/
+skills-lock.json
+supabase/.temp/
+
+# logs / editor / OS noise
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.sw?
+
+# ---------------------------------------------------------------------------
+# Required by the deploy - do not exclude.
+#   api/ + server/  the single serverless function and its handlers
+#   src/             React app sources, minus the desktop app above
+#   public/          static assets
+#   package.json, package-lock.json, vercel.json
+# ---------------------------------------------------------------------------

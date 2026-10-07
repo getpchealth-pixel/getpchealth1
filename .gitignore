@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# production
+build/
+dist/
+
+# GetPcHealth desktop app (not for web deployment)
+src/GetPcHealthexe/
+
+# misc
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# Vercel
+.vercel/
+
+# Supabase local CLI state
+supabase/.temp/
+
+
+# locally installed agent skills
+.agents/
+skills-lock.json
+
+.vercel
+.env*

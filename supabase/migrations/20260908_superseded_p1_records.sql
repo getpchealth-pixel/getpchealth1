@@ -1,0 +1,16 @@
+-- Placeholder that preserves migration version 20260908 in the local history.
+--
+-- The original `20260908_create_p1_records.sql` and
+-- `20260908_p1_records_archived.sql` created the single-tier `p1_records` table.
+-- Both were applied by hand in the Supabase SQL Editor and were tracked in the
+-- remote history under ad-hoc versions, and they also collided with each other
+-- on `schema_migrations.version` because their filename prefixes were identical.
+--
+-- That table is now fully superseded by 20260930_create_licenses_and_credits.sql,
+-- which drops it and introduces `licenses`, `credit_batches` and
+-- `credit_redemptions`. This file intentionally does nothing: the schema it once
+-- described no longer exists, and re-creating it here would just be dropped again
+-- a few lines later.
+--
+-- The full original DDL is preserved in git history at
+--   git show HEAD:supabase/migrations/20260908_create_p1_records.sql
